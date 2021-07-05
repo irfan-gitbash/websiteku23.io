@@ -8,6 +8,209 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 </head>
+	html,body {
+    background-color:#e7dec8;
+	height: 100%;
+    box-shadow: rgb(255, 255, 255) 3px 2px 2px 5px;
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    min-height: 100vh;
+    
+}
+
+
+#button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+img {
+    max-width: 100%;
+}
+
+.navbar a{
+    font-family:'Audiowide', cursive;
+    font-size: 15px;
+    padding: 10px; 
+}
+.navbar ul li a :hover {
+    background-color: red !important;
+}
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: white;
+}
+.navbar ul{
+    color: white;
+    font-weight: white;
+    margin-left: 650px;
+}
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+#stage {
+    background-color: #5000ca;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+/* .ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+  } */
+
+.stage-caption {
+	font-size: 1.4 rem;
+	font-weight: 200;
+	margin: 0 auto;
+	text-align: center;
+  font-weight: bold;
+}
+
+.stage-caption h1 {
+    font-family: 'Audiowide', cursive;
+	  font-size : 4.5em;
+    text-shadow: white 0.1em 0.1em 0.1em;
+}
+
+.stage-caption h2 {
+    font-size : 2.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(252, 249, 249) 0.1em 0.1em 0.2em;
+}
+
+/* .btn-success {
+    background-color: #006400 !important;
+    border-color: #006400 !important;
+}
+.btn-success:hover {
+    background-color: #014f01 !important;
+    border-color: #014f01 !important;
+}
+.btn-warning {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+.btn-warning:hover {
+    background-color: #1f1f1f !important;
+    border-color: #1f1f1f !important;
+} */
+
+.btn-lg:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+    
+#feature-one {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content img {
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+    width: 250px;
+}
+
+.feature-content h5 {
+    font-weight: bold;
+    color: black;
+}
+
+.feature-content p {
+    font-size: 2em;
+    color: black;
+}
+
+#feature-two h5{
+    font-weight: bold;
+}
+
+#feature-three {
+	background: url fixed center center no-repeat;
+	background-size: cover;
+	color: rgb(0, 0, 0);
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#feature-three h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.caption {
+        text-align: center;    
+}
+
+#feature-four {
+    font-weight: bold;
+    color: black;
+	height: 550px;
+	width: 100%;
+	display: flex;
+    padding: 5rem 0;
+}
+
+#main-footer {
+    color: violet;
+}
+
+#main-footer a {
+    color: white;
+}
+
+@media screen and ( min-width: 475px) {
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and ( max-width: 815px) {
+.stage-caption h1 {
+    font-family: 'Audiowide', cursive;
+	  font-size : 3em;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+  
+  .stage-caption .btn {
+    margin-bottom: 1em;
+  }  
+  
+}
+
+
+<style>
+	
+	</style>
 <!--Responsive web design using Bootstrap 4-->
 <!-- Membuat Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-blue shadow-sm fixed-top">
